@@ -67,7 +67,7 @@ const Projects = () => {
             <div style={{ display: 'flex' }}>
               <a href="https://github.com/Redwan-Shawkat/portfolio_one" style={{ width: "33.33%" }}> Repository </a>
               <a href="https://portfolio-red-navy-six.vercel.app/" target="_blank" style={{ width: "33.33%" }}>Preview</a>
-              <a href="#" target="_blank" style={{ width: "33.33%" }}>Video</a>
+              <a href="https://youtu.be/eng0xxuCkYw" target="_blank" style={{ width: "33.33%" }}>Video</a>
             </div>
           </div>
         </div>
