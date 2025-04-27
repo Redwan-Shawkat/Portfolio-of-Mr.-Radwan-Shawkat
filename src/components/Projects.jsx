@@ -17,13 +17,13 @@ const backgroundImageStyles = {
   backgroundImage: `url(${projectsBG})`,
   backgroundSize: "cover",
   backgroundPosition: "center",
-  opacity: 0.3, // Low opacity for the background image
-  zIndex: 0, // Ensures the background stays behind the content
+  opacity: 0.3,
+  zIndex: 0,
 };
 
 const contentStyles = {
   position: "relative",
-  zIndex: 1, // Ensures the content stays above the background image
+  zIndex: 1,
 };
 
 const Projects = () => {
@@ -65,8 +65,8 @@ const Projects = () => {
             <b>Portfolio Website</b>
             <p>A portfolio website is designed using HTML, CSS & React. </p>
             <div style={{ display: 'flex' }}>
-              <a href="#" style={{ width: "33.33%" }}> Repository </a>
-              <a href="#" target="_blank" style={{ width: "33.33%" }}>Preview</a>
+              <a href="https://github.com/Redwan-Shawkat/portfolio_one" style={{ width: "33.33%" }}> Repository </a>
+              <a href="https://portfolio-red-navy-six.vercel.app/" target="_blank" style={{ width: "33.33%" }}>Preview</a>
               <a href="#" target="_blank" style={{ width: "33.33%" }}>Video</a>
             </div>
           </div>

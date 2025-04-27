@@ -11,7 +11,7 @@ import person from "../assets/image/person.png";
 
 import infoBG from "../assets/image/infoBG.jpg";
 
-import anotherPerson from "../assets/image/anotherPerson.png";
+// import anotherPerson from "../assets/image/anotherPerson.png";
 
 const Info = () => {
   const infoStyle = {
