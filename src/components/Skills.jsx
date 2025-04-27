@@ -52,8 +52,9 @@ const Skills = () => {
             paddingBottom: "25px"
             // borderBottom: "1px solid white",
           }}
-        >
+        ><u>
           Skills
+          </u>
         </h1>
 
         <div

@@ -21,7 +21,7 @@ const NavBar = ({ sections }) => {
       width: "100vw",
       margin: "0 auto",
       height: "50px",
-      position: "sticky",
+      // position: "sticky",
       top: "0",
       left: "0",
       background: "transparent",

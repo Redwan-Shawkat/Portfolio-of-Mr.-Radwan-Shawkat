@@ -31,7 +31,9 @@ const Training = () => {
   return (
     <div style={trainingStyle} id="training">
       {/* Background Image */}
-      <div style={backgroundImageStyles}></div>
+      <div style={backgroundImageStyles}>
+
+      </div>
 
       {/* Content */}
       <div style={contentStyles}>

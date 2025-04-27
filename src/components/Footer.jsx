@@ -15,11 +15,11 @@ const Footer = () => {
       <p>© 2025 Mohammad Radwan Shawkat. All Rights Reserved.</p>
       <p>Contact: redwanshawkat@gmail.com | +8801632-108860</p>
       <p>
-        <a href="https://github.com/Redwan-Shawkat" target="_blank">
+        <a href="https://github.com/Redwan-Shawkat" target="_blank" style={{color: "white", linkDecoration: "none"}}>
           GitHub
         </a>
         <span> | </span>
-        <a href="https://www.linkedin.com/in/radwan-shawkat" target="_blank">
+        <a href="https://www.linkedin.com/in/radwan-shawkat" target="_blank" style={{color: "white", linkDecoration: "none"}}>
           LinkedIn
         </a>
       </p>
