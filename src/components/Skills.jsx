@@ -4,6 +4,9 @@ import mysql from "../assets/icons/mysql.svg";
 import mongodb from "../assets/icons/mongodb.svg";
 import vscode from "../assets/icons/vscode.svg";
 import postman from "../assets/icons/postman.svg";
+import laravel from "../assets/icons/laravel.svg";
+import lumen from "../assets/icons/Lumen.svg";
+import xampp from "../assets/icons/xampp.svg";
 
 const skillsStyle = {
   width: "100vw",
@@ -87,6 +90,11 @@ const Skills = () => {
           ></i>
 
           <i
+            className="fa-brands fa-php fa-2xs"
+            style={{ color: "#3c50c3", fontSize: "50px", marginRight: "20px" }}
+          ></i>
+
+          <i
             className="fa-solid fa-c fa-2xs"
             style={{ color: "#00FF00", fontSize: "50px", marginRight: "20px" }}
           ></i>
@@ -125,8 +133,23 @@ const Skills = () => {
           <img
             src={expressJs}
             alt="ExpressJs"
-            style={{ width: "40px", height: "250px" }}
+            style={{ width: "40px", height: "250px", marginRight: "20px" }}
           />
+
+          <img
+            src={laravel}
+            alt="Laravel"
+            style={{ width: "40px", height: "250px", marginRight: "20px" }}
+          />
+
+
+          <img
+            src={lumen}
+            alt="Lumen"
+            style={{ width: "40px", height: "250px", marginRight: "20px" }}
+          />
+
+
         </div>
 
         <div
@@ -173,7 +196,7 @@ const Skills = () => {
 
           <i
             className="fa-brands fa-git fa-2xs"
-            style={{ color: "#63E6BE", fontSize: "50px", marginRight: "20px" }}
+            style={{ color: "orange", fontSize: "50px", marginRight: "20px" }}
           ></i>
           <i
             className="fa-brands fa-github fa-2xs"
@@ -184,14 +207,19 @@ const Skills = () => {
             alt="VSCode"
             style={{ width: "50px", height: "250px", marginRight: "20px" }}
           />
+          <img
+            src={postman}
+            alt="Postman"
+            style={{ width: "50px", height: "250px", marginRight: "20px" }}
+          />
           <i
             className="fa-brands fa-figma fa-2xs"
             style={{ color: "maroon", fontSize: "50px", marginRight: "20px" }}
           ></i>
           <img
-            src={postman}
-            alt="Postman"
-            style={{ width: "50px", height: "250px", marginRight: "20px" }}
+            src={xampp}
+            alt="Xampp"
+            style={{ width: "40px", height: "250px", marginRight: "20px" }}
           />
         </div>
       </div>
