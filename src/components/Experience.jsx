@@ -45,7 +45,7 @@ const Experience = () => {
               <small> Web Application Intern </small>
             </div>
             <div style={{ width: "50%" }}>
-              <p> February 2025 - April 2025 </p>
+              <p> February 2025 - Present </p>
             </div>
           </div>
           <div className="experoenceDescription">
