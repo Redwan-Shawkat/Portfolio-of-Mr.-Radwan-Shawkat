@@ -220,7 +220,7 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-   overflow: hidden;
+  overflow: hidden;
 }
 
 /* #html_icon{
@@ -397,6 +397,9 @@ button:focus-visible {
   display: block;
   font-size: small;
   font-weight: bold;
+  margin: 0 !important;
+  text-align: left;
+  /* float: left; */
 
  }
 
@@ -412,13 +415,16 @@ button:focus-visible {
   content: "HTML, CSS, JavaScipt, PHP, C";
   display: block;
   color: white;
-
+  /* float: left; */
 }
 
  .framework_label{
   display: block;
   font-size: small;
   font-weight: bold;
+    margin: 0 !important;
+  text-align: left;
+  /* float: left; */
 
  }
 
@@ -441,7 +447,10 @@ button:focus-visible {
   display: block;
   font-size: small;
   font-weight: bold;
+  margin: 0 !important;
+  text-align: left;
 
+  /* float: left; */
  }
 
 /* .database_label i{
@@ -462,7 +471,9 @@ button:focus-visible {
   display: block;
   font-size: small;
   font-weight: bold;
-
+  margin: 0 !important;
+  text-align: left;
+  /* float: left; */
  }
 
 .tools_label i{
@@ -474,7 +485,7 @@ button:focus-visible {
 }
 
 .tools_label::after{
-  content: "Git, GitHub, Visual Studio Code, Postman, Figma, Xampp" !important;
+  content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
   color: white;
   }
 
