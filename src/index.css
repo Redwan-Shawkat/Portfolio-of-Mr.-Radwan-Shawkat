@@ -365,7 +365,7 @@ button:focus-visible {
 
 
  .infoStyle{
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   margin-left: 0px;
   margin-top: 0px;
@@ -572,7 +572,8 @@ button:focus-visible {
 
 .footerContainer p{
   margin: 0 auto;
-
+  word-break: break-word;
+  overflow-wrap: break-word;
   /* text-align: center; */
 }
 }
