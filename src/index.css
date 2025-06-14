@@ -565,7 +565,7 @@ button:focus-visible {
 .footerContainer{
   width: 100vw;
   overflow: hidden !important;
-  margin-left: 0px;
+  /* margin-left: 0px; */
   margin-top: 0px;
   font-size: xx-small;
 }
