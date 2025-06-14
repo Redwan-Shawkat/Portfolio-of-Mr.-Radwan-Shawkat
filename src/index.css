@@ -587,5 +587,287 @@ button:focus-visible {
   word-break: break-word;
   overflow-wrap: break-word;
   /* text-align: center; */
+ }
 }
+
+/* Tabley adjustments */
+@media (min-width: 768px) and (max-width: 1024px){
+    /* Nav */
+ .navstyle{
+  /* align-items: start;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 150px;
+  width: 12px !important;
+  position: sticky !important; */
+  display: none;
+ }
+
+ .navbtnstyle{
+    /* display: hidden; */
+ }
+
+
+ .infoStyle{
+  width: 100%;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+
+ }
+
+ .texts{
+  margin: 0 auto;
+  font-size: large;
+ }
+
+
+/* Skills */
+ .skillStyle{
+  width: 100vw;
+ }
+
+ .skillheading{
+  font-size: large;
+  padding-bottom: 20px;
+  /* border: 1px solid white !important; */
+  width: 64px;
+  height: 30px;
+  top:3px;
+ }
+
+ .language_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+  margin: 0 !important;
+  text-align: left;
+  /* float: left; */
+
+ }
+
+.language_label i{
+  display: none;
+}
+
+.language_label img{
+  display: none;
+}
+
+.language_label::after{
+  content: "HTML, CSS, JavaScipt, PHP, C";
+  display: block;
+  color: white;
+  /* float: left; */
+}
+
+ .framework_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+    margin: 0 !important;
+  text-align: left;
+  /* float: left; */
+
+ }
+
+.framework_label i{
+  display: none;
+}
+
+.framework_label img{
+  display: none;
+}
+
+
+.framework_label::after{
+  content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
+  color: white;
+
+}
+
+.database_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+  margin: 0 !important;
+  text-align: left;
+
+  /* float: left; */
+ }
+
+/* .database_label i{
+  display: none;
+} */
+
+.database_label img{
+  display: none;
+}
+
+
+.database_label::after{
+  content: "MySQL, MongoDB" !important;
+  color: white;
+  }
+
+  .tools_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+  margin: 0 !important;
+  text-align: left;
+  /* float: left; */
+ }
+
+.tools_label i{
+  display: none;
+}
+
+.tools_label img{
+  display: none;
+}
+
+.tools_label::after{
+  content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
+  color: white;
+  }
+
+/* Projects */
+  /* Projects */
+  .projectContainer h1 u{
+    font-size: medium;
+  }
+
+  .projectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the entire container */
+    justify-content: center;
+  }
+
+  .projectDetailContainer{
+    display: flex; /* Add this - it was missing */
+    flex-direction: column;
+    align-items: center; /* Center the project items */
+    justify-content: center;
+    max-width: 100%;
+  }
+
+  .projectDescription{
+    width: 360px;
+    height: 200px;
+    margin: 20px auto; /* Add margin for spacing and centering */
+    text-align: center; /* Center the text content */
+  }
+
+/* Experience */
+.experienceStyles{
+  width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.experienceContainer h1 u{
+  font-size: medium;
+}
+
+.experienceDetailContainer{
+  font-size: medium;
+}
+
+.experience01{
+  display: flex;
+
+}
+
+.experience01 div b{
+  width: 50%;
+}
+
+.experience01 div p{
+  width: 80%;
+}
+
+.experoenceDescription{
+  width: 250px;
+  margin: 0 auto;
+}
+
+ /* Training */
+  .trainingStyle{
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .trainingContent{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .trainingContent h1{
+    font-size: medium;
+    text-align: center;
+  }
+
+  .trainingDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+
+  .trainingDescription > div {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 90%;
+  }
+  /* Education */
+   .educationStyles{
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .educationStyles h1{
+    font-size: medium;
+    text-align: center;
+  }
+
+  .eduDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    font-size: medium;
+    margin: 0 auto;
+  }
+
+  .eduDetails > div {
+    margin: 20px auto;
+    text-align: center;
+    width: 100% !important;
+    max-width: 800px;
+  }
 }
