@@ -85,7 +85,9 @@ button:focus-visible {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
 
 a {
   font-weight: 500;
@@ -102,8 +104,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  overflow: auto;
+  /* overflow: auto; */
   padding: 10px;
+    overflow-x: hidden;
+  width: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -134,37 +138,440 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Light mode adjustments */
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+
+.navstyle{
+      width: 100vw;
+      margin: 0 auto;
+      height: 50px;
+      /* position: "sticky"; */
+      /* top: "0"; */
+      /* left: "0"; */
+      background: transparent;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+}
+
+.navbtnstyle{
+  background-color: transparent;
+}
+
+.infoStyle{
+    margin: 0 auto;
+    max-width: 100vw;
+    width: 100%;
+    background-color: black;
+    font-family: Times New Roman;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 0px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    /* margin-top: 50px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.person_imgcontainer{
+  width: 50%;
+}
+
+.person_imgstyle{
+  height: 250px;
+  width: 200px;
+}
+
+.texts{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.skillStyle{
+  width: 100vw;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 100px;
+  background-color: black;
+  position: relative;
+}
+
+.skillheading{
+  color: white;
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  /* border-bottom: 1px solid white; */
+}
+
+.language_label{
+  margin: 0 auto;
+  padding-bottom: 5px;
+  height: 100px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   overflow: hidden;
+}
+
+/* #html_icon{
+  font-size: 50px;
+  color: "orange";
+  margin-right: 20px;
+} */
+
+.framework_label{
+    height: 100px;
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.database_label{
+   height:100px;
+   width:100vw;
+   margin:0 auto;
+   padding-bottom: 5px;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   overflow:hidden;
+}
+
+.tools_label{
+  height: 100px;
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.projectContainer{
+  position: relative;
+  z-Index: 1;
+}
+
+.projectDetailContainer{
+  display: "flex";
+}
+
+.projectDescription{
+  width: 25%;
+  margin: 30px
+}
+
+.experienceStyles{
+  margin: 0 auto;
+  width: 100vw;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.experienceContainer{
+  position: relative;
+  z-index: 1;
+}
+
+.experienceDetailContainer{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.experience01{
+  display: flex;
+}
+
+.experienceDescription{
+
+}
+
+/* Training */
+.trainingStyle{
+  background-color: black;
+  width: 100vw;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  padding-top: 100px;
+  position: relative;
+}
+
+.trainingContent{
+  position: relative;
+  z-index: 1;
+}
+
+.trainingDescription{
+  display: flex;
+}
+
+/* Education */
+.educationStyles{
+  width: 100vw;
+  padding-top: 100px;
+  background-color: black;
+  /* margin-top: 50px; */
+  position: relative;
+  overflow: hidden;
+}
+
+.eduDetails{
+  display: "flex"
+}
+
+/* Footer */
+.footerContainer{
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  /* margin-top: 50px; */
+  width: 100vw;
 }
 
 /* Mobile adjustments */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5em; /* Make heading smaller for mobile */
+@media (max-width: 360px ) {
+
+  /* Nav */
+ .navstyle{
+  /* align-items: start;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 150px;
+  width: 12px !important;
+  position: sticky !important; */
+  display: none;
+ }
+
+ .navbtnstyle{
+    /* display: hidden; */
+ }
+
+
+ .infoStyle{
+  width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+
+ }
+
+ .texts{
+  margin: 0;
+  font-size: small;
+ }
+
+
+/* Skills */
+ .skillStyle{
+  width: 100vw;
+ }
+
+ .skillheading{
+  font-size: large;
+  padding-bottom: 20px;
+  /* border: 1px solid white !important; */
+  width: 64px;
+  height: 30px;
+  top:3px;
+ }
+
+ .language_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+
+ }
+
+.language_label i{
+  display: none;
+}
+
+.language_label img{
+  display: none;
+}
+
+.language_label::after{
+  content: "HTML, CSS, JavaScipt, PHP, C";
+  display: block;
+  color: white;
+
+}
+
+ .framework_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+
+ }
+
+.framework_label i{
+  display: none;
+}
+
+.framework_label img{
+  display: none;
+}
+
+
+.framework_label::after{
+  content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
+  color: white;
+
+}
+
+.database_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+
+ }
+
+/* .database_label i{
+  display: none;
+} */
+
+.database_label img{
+  display: none;
+}
+
+
+.database_label::after{
+  content: "MySQL, MongoDB" !important;
+  color: white;
   }
 
-  button {
-    padding: 0.8em 1.6em; /* Increase padding for mobile */
-    font-size: 1.1em; /* Increase font size */
+  .tools_label{
+  display: block;
+  font-size: small;
+  font-weight: bold;
+
+ }
+
+.tools_label i{
+  display: none;
+}
+
+.tools_label img{
+  display: none;
+}
+
+.tools_label::after{
+  content: "Git, GitHub, Visual Studio Code, Postman, Figma, Xampp" !important;
+  color: white;
   }
 
-  body {
-    padding: 15px; /* More padding on mobile */
-    flex-direction: column; /* Ensure content is stacked on mobile */
-  }
+/* Projects */
+.projectContainer h1 u{
+  font-size: small;
+}
 
-  a {
-    font-size: 1.2em; /* Increase link font size for easier clicking */
-  }
+.projectDetailContainer{
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectDescription{
+  width: 250px;
+  height: 200px;
+}
+
+/* Experience */
+.experienceStyles{
+     width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.experienceContainer h1 u{
+  font-size: small;
+}
+
+.experienceDetailContainer{
+  font-size: x-small;
+}
+
+.experience01{
+  display: flex;
+
+}
+
+.experience01 div b{
+  width: 50%;
+}
+
+.experience01 div p{
+  width: 80%;
+}
+
+.experoenceDescription{
+  width: 250px;
+  margin: 0 auto;
+}
+
+/* Training */
+.trainingStyle{
+   width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.trainingContent h1{
+  font-size: medium;
+}
+
+.trainingDescription{
+  flex-direction: column;
+  width: 450px;
+}
+
+/* Education */
+.educationStyles{
+   width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.educationStyles h1{
+  font-size: medium;
+}
+
+.eduDetails{
+  flex-direction: column;
+  width: 700px;
+  font-size: small;
+}
+
+/* Footer */
+.footerContainer{
+  width: 100vw;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: xx-small;
+}
+
+.footerContainer p{
+  margin: 0 auto;
+  /* text-align: center; */
+}
 }
