@@ -343,6 +343,7 @@ button:focus-visible {
   text-align: center;
   /* margin-top: 50px; */
   width: 100vw;
+  box-sizing: border-box;
 }
 
 /* Mobile adjustments */
