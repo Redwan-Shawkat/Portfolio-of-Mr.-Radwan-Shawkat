@@ -268,7 +268,7 @@ button:focus-visible {
 }
 
 .projectDetailContainer{
-  display: "flex";
+  display:flex;
 }
 
 .projectDescription{
@@ -332,7 +332,7 @@ button:focus-visible {
 }
 
 .eduDetails{
-  display: "flex"
+  display:flex;
 }
 
 /* Footer */
@@ -762,6 +762,7 @@ button:focus-visible {
 
 /* Experience */
 .experienceStyles{
+
   width: 100vw;
   overflow: hidden;
   margin-left: 0px;
