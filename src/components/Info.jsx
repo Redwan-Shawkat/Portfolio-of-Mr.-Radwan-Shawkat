@@ -2,10 +2,7 @@
 // import axios from "axios";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faFacebook,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 import person from "../assets/image/person.png";
 
@@ -55,27 +52,49 @@ const Info = () => {
         }}
       ></div>
 
-
       <div style={{ position: "relative", zIndex: 2 }}>
-        <div style={{ display: "flex", maxWidth: "1000px", width: "700px", margin: "0 auto" }}>
-          <div className= "texts">
+        <div
+          style={{
+            display: "flex",
+            maxWidth: "1000px",
+            width: "700px",
+            margin: "0 auto",
+          }}
+        >
+          <div className="texts">
             <p> Mohammad Radwan Shawkat </p>
             <p> redwanshawkat@gmail.com </p>
             <p> +8801632-108860 </p>
 
             {/* Social Links */}
             <section style={iconLinks}>
-              <a href="https://github.com/Redwan-Shawkat" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://github.com/Redwan-Shawkat"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faGithub}
-                  style={{ color: "#fff", textDecoration: "none", marginRight: "25px" }}
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                    marginRight: "25px",
+                  }}
                 />
               </a>
 
-              <a href="https://www.facebook.com/redwanshawkat/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.facebook.com/redwanshawkat/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <FontAwesomeIcon
                   icon={faFacebook}
-                  style={{ color: "#fff", textDecoration: "none", marginRight: "25px" }}
+                  style={{
+                    color: "#fff",
+                    textDecoration: "none",
+                    marginRight: "25px",
+                  }}
                 />
               </a>
             </section>

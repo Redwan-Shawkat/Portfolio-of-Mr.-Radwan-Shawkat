@@ -85,9 +85,7 @@ button:focus-visible {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
-
 
 a {
   font-weight: 500;
@@ -100,13 +98,13 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  /* display: flex;
+  place-items: center; */
   min-width: 320px;
   min-height: 100vh;
   /* overflow: auto; */
   padding: 10px;
-    overflow-x: hidden;
+  overflow-x: hidden;
   width: 100%;
 }
 
@@ -138,60 +136,60 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
-
-.navstyle{
-      width: 100vw;
-      margin: 0 auto;
-      height: 50px;
-      /* position: "sticky"; */
-      /* top: "0"; */
-      /* left: "0"; */
-      background: transparent;
-      display:flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
+.navstyle {
+  width: 100vw;
+  margin: 0 auto;
+  height: 50px;
+  /* position: "sticky"; */
+  /* top: "0"; */
+  /* left: "0"; */
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
 }
 
-.navbtnstyle{
+.navbtnstyle {
   background-color: transparent;
 }
 
-.infoStyle{
-    margin: 0 auto;
-    max-width: 100vw;
-    width: 100%;
-    background-color: black;
-    font-family: Times New Roman;
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-shadow: 2px 2px 0px black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-bottom: 200px;
-    padding-top: 200px;
-    /* margin-top: 50px; */
-    position: relative;
-    overflow: hidden;
+.infoStyle {
+  margin: 0 auto;
+  /* max-width: 100vw; */
+  width: 100vw;
+  /* min-height: 100vh; */
+  /* background-color: black; */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 0px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  /* margin-top: 50px; */
+  position: relative;
+  overflow: hidden;
 }
 
-.person_imgcontainer{
+.person_imgcontainer {
   width: 50%;
 }
 
-.person_imgstyle{
+.person_imgstyle {
   height: 250px;
   width: 200px;
 }
 
-.texts{
+.texts {
   width: 50%;
   margin: 0 auto;
 }
 
-.skillStyle{
+.skillStyle {
   width: 100vw;
   padding-bottom: 200px;
   display: flex;
@@ -204,7 +202,7 @@ button:focus-visible {
   position: relative;
 }
 
-.skillheading{
+.skillheading {
   color: white;
   margin: 0 auto;
   text-transform: uppercase;
@@ -212,7 +210,7 @@ button:focus-visible {
   /* border-bottom: 1px solid white; */
 }
 
-.language_label{
+.language_label {
   margin: 0 auto;
   padding-bottom: 5px;
   height: 100px;
@@ -229,29 +227,7 @@ button:focus-visible {
   margin-right: 20px;
 } */
 
-.framework_label{
-    height: 100px;
-    width: 80vw;
-    margin: 0 auto;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.database_label{
-   height:100px;
-   width:100vw;
-   margin:0 auto;
-   padding-bottom: 5px;
-   display:flex;
-   justify-content: center;
-   align-items:center;
-   overflow:hidden;
-}
-
-.tools_label{
+.framework_label {
   height: 100px;
   width: 80vw;
   margin: 0 auto;
@@ -262,21 +238,43 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.projectContainer{
+.database_label {
+  height: 100px;
+  width: 100vw;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.tools_label {
+  height: 100px;
+  width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.projectContainer {
   position: relative;
-  z-Index: 1;
+  z-index: 1;
 }
 
-.projectDetailContainer{
-  display:flex;
+.projectDetailContainer {
+  display: flex;
 }
 
-.projectDescription{
+.projectDescription {
   width: 25%;
-  margin: 30px
+  margin: 30px;
 }
 
-.experienceStyles{
+.experienceStyles {
   margin: 0 auto;
   width: 100vw;
   padding-bottom: 100px;
@@ -284,26 +282,25 @@ button:focus-visible {
   position: relative;
 }
 
-.experienceContainer{
+.experienceContainer {
   position: relative;
   z-index: 1;
 }
 
-.experienceDetailContainer{
+.experienceDetailContainer {
   margin: 0 auto;
   max-width: 1000px;
 }
 
-.experience01{
+.experience01 {
   display: flex;
 }
 
-.experienceDescription{
-
+.experienceDescription {
 }
 
 /* Training */
-.trainingStyle{
+.trainingStyle {
   background-color: black;
   width: 100vw;
   margin: 0 auto;
@@ -312,17 +309,17 @@ button:focus-visible {
   position: relative;
 }
 
-.trainingContent{
+.trainingContent {
   position: relative;
   z-index: 1;
 }
 
-.trainingDescription{
+.trainingDescription {
   display: flex;
 }
 
 /* Education */
-.educationStyles{
+.educationStyles {
   width: 100vw;
   padding-top: 100px;
   background-color: black;
@@ -331,12 +328,12 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.eduDetails{
-  display:flex;
+.eduDetails {
+  display: flex;
 }
 
 /* Footer */
-.footerContainer{
+.footerContainer {
   background-color: #222;
   color: #fff;
   padding: 20px;
@@ -347,405 +344,387 @@ button:focus-visible {
 }
 
 /* Mobile adjustments */
-@media (max-width: 360px ) {
-
+@media (max-width: 360px) {
   /* Nav */
- .navstyle{
-  /* align-items: start;
+  .navstyle {
+    /* align-items: start;
   flex-direction: column;
   margin-left: 15px;
   margin-top: 150px;
   width: 12px !important;
   position: sticky !important; */
-  display: none;
- }
+    display: none;
+  }
 
- .navbtnstyle{
+  .navbtnstyle {
     /* display: hidden; */
- }
+  }
 
+  .infoStyle {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 
- .infoStyle{
-  width: 100%;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
+  .texts {
+    margin: 0;
+    font-size: small;
+  }
 
- }
+  /* Skills */
+  .skillStyle {
+    width: 100vw;
+  }
 
- .texts{
-  margin: 0;
-  font-size: small;
- }
+  .skillheading {
+    font-size: large;
+    padding-bottom: 20px;
+    /* border: 1px solid white !important; */
+    width: 64px;
+    height: 30px;
+    top: 3px;
+  }
 
-
-/* Skills */
- .skillStyle{
-  width: 100vw;
- }
-
- .skillheading{
-  font-size: large;
-  padding-bottom: 20px;
-  /* border: 1px solid white !important; */
-  width: 64px;
-  height: 30px;
-  top:3px;
- }
-
- .language_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
-  /* float: left; */
-
- }
-
-.language_label i{
-  display: none;
-}
-
-.language_label img{
-  display: none;
-}
-
-.language_label::after{
-  content: "HTML, CSS, JavaScipt, PHP, C";
-  display: block;
-  color: white;
-  /* float: left; */
-}
-
- .framework_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
+  .language_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
     margin: 0 !important;
-  text-align: left;
-  /* float: left; */
+    text-align: left;
+    /* float: left; */
+  }
 
- }
+  .language_label i {
+    display: none;
+  }
 
-.framework_label i{
-  display: none;
-}
+  .language_label img {
+    display: none;
+  }
 
-.framework_label img{
-  display: none;
-}
+  .language_label::after {
+    content: "HTML, CSS, JavaScipt, PHP, C";
+    display: block;
+    color: white;
+    /* float: left; */
+  }
 
+  .framework_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
+    /* float: left; */
+  }
 
-.framework_label::after{
-  content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
-  color: white;
+  .framework_label i {
+    display: none;
+  }
 
-}
+  .framework_label img {
+    display: none;
+  }
 
-.database_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
+  .framework_label::after {
+    content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
+    color: white;
+  }
 
-  /* float: left; */
- }
+  .database_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
 
-/* .database_label i{
+    /* float: left; */
+  }
+
+  /* .database_label i{
   display: none;
 } */
 
-.database_label img{
-  display: none;
-}
-
-
-.database_label::after{
-  content: "MySQL, MongoDB" !important;
-  color: white;
+  .database_label img {
+    display: none;
   }
 
-  .tools_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
-  /* float: left; */
- }
-
-.tools_label i{
-  display: none;
-}
-
-.tools_label img{
-  display: none;
-}
-
-.tools_label::after{
-  content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
-  color: white;
+  .database_label::after {
+    content: "MySQL, MongoDB" !important;
+    color: white;
   }
 
-/* Projects */
-.projectContainer h1 u{
-  font-size: small;
-}
-
-.projectDetailContainer{
-  flex-direction: column;
-  align-items: center;
-}
-
-.projectDescription{
-  width: 250px;
-  height: 200px;
-}
-
-/* Experience */
-.experienceStyles{
-     width: 100vw;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-.experienceContainer h1 u{
-  font-size: small;
-}
-
-.experienceDetailContainer{
-  font-size: x-small;
-}
-
-.experience01{
-  display: flex;
-
-}
-
-.experience01 div b{
-  width: 50%;
-}
-
-.experience01 div p{
-  width: 80%;
-}
-
-.experoenceDescription{
-  width: 250px;
-  margin: 0 auto;
-}
-
-/* Training */
-.trainingStyle{
-   width: 100vw;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-.trainingContent h1{
-  font-size: medium;
-}
-
-.trainingDescription{
-  flex-direction: column;
-  width: 450px;
-}
-
-/* Education */
-.educationStyles{
-   width: 100vw;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
-}
-
-.educationStyles h1{
-  font-size: medium;
-}
-
-.eduDetails{
-  flex-direction: column;
-  width: 700px;
-  font-size: small;
-}
-
-/* Footer */
-.footerContainer{
-  width: 100vw;
-  overflow: hidden;
-  /* margin-left: 0px; */
-  margin-top: 0px;
-  font-size: xx-small;
-}
-
-.footerContainer p{
-  margin: 0 auto;
-  word-break: break-word;
-  overflow-wrap: break-word;
-  /* text-align: center; */
- }
-}
-
-/* Tabley adjustments */
-@media (min-width: 768px) and (max-width: 1024px){
-    /* Nav */
- .navstyle{
-  /* align-items: start;
-  flex-direction: column;
-  margin-left: 15px;
-  margin-top: 150px;
-  width: 12px !important;
-  position: sticky !important; */
-  display: none;
- }
-
- .navbtnstyle{
-    /* display: hidden; */
- }
-
-
- .infoStyle{
-  width: 100%;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
-
- }
-
- .texts{
-  margin: 0 auto;
-  font-size: large;
- }
-
-
-/* Skills */
- .skillStyle{
-  width: 100vw;
- }
-
- .skillheading{
-  font-size: large;
-  padding-bottom: 20px;
-  /* border: 1px solid white !important; */
-  width: 64px;
-  height: 30px;
-  top:3px;
- }
-
- .language_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
-  /* float: left; */
-
- }
-
-.language_label i{
-  display: none;
-}
-
-.language_label img{
-  display: none;
-}
-
-.language_label::after{
-  content: "HTML, CSS, JavaScipt, PHP, C";
-  display: block;
-  color: white;
-  /* float: left; */
-}
-
- .framework_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
+  .tools_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
     margin: 0 !important;
-  text-align: left;
-  /* float: left; */
-
- }
-
-.framework_label i{
-  display: none;
-}
-
-.framework_label img{
-  display: none;
-}
-
-
-.framework_label::after{
-  content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
-  color: white;
-
-}
-
-.database_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
-
-  /* float: left; */
- }
-
-/* .database_label i{
-  display: none;
-} */
-
-.database_label img{
-  display: none;
-}
-
-
-.database_label::after{
-  content: "MySQL, MongoDB" !important;
-  color: white;
+    text-align: left;
+    /* float: left; */
   }
 
-  .tools_label{
-  display: block;
-  font-size: small;
-  font-weight: bold;
-  margin: 0 !important;
-  text-align: left;
-  /* float: left; */
- }
-
-.tools_label i{
-  display: none;
-}
-
-.tools_label img{
-  display: none;
-}
-
-.tools_label::after{
-  content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
-  color: white;
+  .tools_label i {
+    display: none;
   }
 
-/* Projects */
+  .tools_label img {
+    display: none;
+  }
+
+  .tools_label::after {
+    content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
+    color: white;
+  }
+
   /* Projects */
-  .projectContainer h1 u{
+  .projectContainer h1 u {
+    font-size: small;
+  }
+
+  .projectDetailContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectDescription {
+    width: 250px;
+    height: 200px;
+  }
+
+  /* Experience */
+  .experienceStyles {
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .experienceContainer h1 u {
+    font-size: small;
+  }
+
+  .experienceDetailContainer {
+    font-size: x-small;
+  }
+
+  .experience01 {
+    display: flex;
+  }
+
+  .experience01 div b {
+    width: 50%;
+  }
+
+  .experience01 div p {
+    width: 80%;
+  }
+
+  .experoenceDescription {
+    width: 250px;
+    margin: 0 auto;
+  }
+
+  /* Training */
+  .trainingStyle {
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .trainingContent h1 {
     font-size: medium;
   }
 
-  .projectContainer{
+  .trainingDescription {
+    flex-direction: column;
+    width: 450px;
+  }
+
+  /* Education */
+  .educationStyles {
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .educationStyles h1 {
+    font-size: medium;
+  }
+
+  .eduDetails {
+    flex-direction: column;
+    width: 700px;
+    font-size: small;
+  }
+
+  /* Footer */
+  .footerContainer {
+    width: 100vw;
+    overflow: hidden;
+    /* margin-left: 0px; */
+    margin-top: 0px;
+    font-size: xx-small;
+  }
+
+  .footerContainer p {
+    margin: 0 auto;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    /* text-align: center; */
+  }
+}
+
+/* Tabley adjustments */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Nav */
+  .navstyle {
+    /* align-items: start;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-top: 150px;
+  width: 12px !important;
+  position: sticky !important; */
+    display: none;
+  }
+
+  .navbtnstyle {
+    /* display: hidden; */
+  }
+
+  .infoStyle {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+
+  .texts {
+    margin: 0 auto;
+    font-size: large;
+  }
+
+  /* Skills */
+  .skillStyle {
+    width: 100vw;
+  }
+
+  .skillheading {
+    font-size: large;
+    padding-bottom: 20px;
+    /* border: 1px solid white !important; */
+    width: 64px;
+    height: 30px;
+    top: 3px;
+  }
+
+  .language_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
+    /* float: left; */
+  }
+
+  .language_label i {
+    display: none;
+  }
+
+  .language_label img {
+    display: none;
+  }
+
+  .language_label::after {
+    content: "HTML, CSS, JavaScipt, PHP, C";
+    display: block;
+    color: white;
+    /* float: left; */
+  }
+
+  .framework_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
+    /* float: left; */
+  }
+
+  .framework_label i {
+    display: none;
+  }
+
+  .framework_label img {
+    display: none;
+  }
+
+  .framework_label::after {
+    content: "Bootstrap, React, Node, Express, Laravel, Lumen" !important;
+    color: white;
+  }
+
+  .database_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
+
+    /* float: left; */
+  }
+
+  /* .database_label i{
+  display: none;
+} */
+
+  .database_label img {
+    display: none;
+  }
+
+  .database_label::after {
+    content: "MySQL, MongoDB" !important;
+    color: white;
+  }
+
+  .tools_label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin: 0 !important;
+    text-align: left;
+    /* float: left; */
+  }
+
+  .tools_label i {
+    display: none;
+  }
+
+  .tools_label img {
+    display: none;
+  }
+
+  .tools_label::after {
+    content: "Git, GitHub, Visual Studio Code, Postman, Figma, XAMPP" !important;
+    color: white;
+  }
+
+  /* Projects */
+  /* Projects */
+  .projectContainer h1 u {
+    font-size: medium;
+  }
+
+  .projectContainer {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center the entire container */
     justify-content: center;
   }
 
-  .projectDetailContainer{
+  .projectDetailContainer {
     display: flex; /* Add this - it was missing */
     flex-direction: column;
     align-items: center; /* Center the project items */
@@ -753,50 +732,48 @@ button:focus-visible {
     max-width: 100%;
   }
 
-  .projectDescription{
+  .projectDescription {
     width: 360px;
     height: 200px;
     margin: 20px auto; /* Add margin for spacing and centering */
     text-align: center; /* Center the text content */
   }
 
-/* Experience */
-.experienceStyles{
+  /* Experience */
+  .experienceStyles {
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
 
-  width: 100vw;
-  overflow: hidden;
-  margin-left: 0px;
-  margin-top: 0px;
-}
+  .experienceContainer h1 u {
+    font-size: medium;
+  }
 
-.experienceContainer h1 u{
-  font-size: medium;
-}
+  .experienceDetailContainer {
+    font-size: medium;
+  }
 
-.experienceDetailContainer{
-  font-size: medium;
-}
+  .experience01 {
+    display: flex;
+  }
 
-.experience01{
-  display: flex;
+  .experience01 div b {
+    width: 50%;
+  }
 
-}
+  .experience01 div p {
+    width: 80%;
+  }
 
-.experience01 div b{
-  width: 50%;
-}
+  .experoenceDescription {
+    width: 250px;
+    margin: 0 auto;
+  }
 
-.experience01 div p{
-  width: 80%;
-}
-
-.experoenceDescription{
-  width: 250px;
-  margin: 0 auto;
-}
-
- /* Training */
-  .trainingStyle{
+  /* Training */
+  .trainingStyle {
     width: 100vw;
     overflow: hidden;
     margin-left: 0px;
@@ -807,7 +784,7 @@ button:focus-visible {
     justify-content: center;
   }
 
-  .trainingContent{
+  .trainingContent {
     position: relative;
     z-index: 1;
     display: flex;
@@ -816,12 +793,12 @@ button:focus-visible {
     max-width: 100%;
   }
 
-  .trainingContent h1{
+  .trainingContent h1 {
     font-size: medium;
     text-align: center;
   }
 
-  .trainingDescription{
+  .trainingDescription {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -831,14 +808,13 @@ button:focus-visible {
     margin: 0 auto;
   }
 
-
   .trainingDescription > div {
     margin: 20px auto;
     text-align: center;
     max-width: 90%;
   }
   /* Education */
-   .educationStyles{
+  .educationStyles {
     width: 100vw;
     overflow: hidden;
     margin-left: 0px;
@@ -849,12 +825,12 @@ button:focus-visible {
     justify-content: center;
   }
 
-  .educationStyles h1{
+  .educationStyles h1 {
     font-size: medium;
     text-align: center;
   }
 
-  .eduDetails{
+  .eduDetails {
     display: flex;
     flex-direction: column;
     align-items: center;
