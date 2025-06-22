@@ -140,7 +140,7 @@ button:focus-visible {
   width: 100vw;
   margin: 0 auto;
   height: 50px;
-  /* position: "sticky"; */
+  /* position: fixed; */
   /* top: "0"; */
   /* left: "0"; */
   background: transparent;
